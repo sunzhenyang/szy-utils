@@ -1,0 +1,36 @@
+{
+  "name": "szy-utils",
+  "version": "1.0.0",
+  "description": "一个自用的工具库",
+  "author": "sunzhenyang",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/szy-utils.cjs.js",
+  "module": "dist/szy-utils.esm.js",
+  "browser": "dist/szy-utils.umd.js",
+  "types": "src/index.d.ts",
+  "files": [
+    "src",
+    "dist/*.js"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/preset-typescript": "^7.24.7",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.1.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "rollup": "^4.20.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "tslib": "^2.6.3"
+  }
+}
