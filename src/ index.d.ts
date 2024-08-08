@@ -8,6 +8,6 @@ declare namespace dipUtils {
   export function random(min: number, max: number): number
 }
 
-declare module 'szy-utils' {
+declare module 'szy-custom-utils' {
   export = dipUtils
 }

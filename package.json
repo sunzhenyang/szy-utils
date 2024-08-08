@@ -1,13 +1,13 @@
 {
-  "name": "szy-utils",
+  "name": "szy-custom-utils",
   "version": "1.0.0",
   "description": "一个自用的工具库",
   "author": "sunzhenyang",
   "license": "MIT",
   "type": "module",
-  "main": "dist/szy-utils.cjs.js",
-  "module": "dist/szy-utils.esm.js",
-  "browser": "dist/szy-utils.umd.js",
+  "main": "dist/szy-custom-utils.cjs.js",
+  "module": "dist/szy-custom-utils.esm.js",
+  "browser": "dist/szy-custom-utils.umd.js",
   "types": "src/index.d.ts",
   "files": [
     "src",
